@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:4.3.1"],\
           ["autoprefixer", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:10.4.20"],\
+          ["daisyui", "npm:4.12.10"],\
           ["eslint", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:9.9.1"],\
           ["eslint-plugin-react", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:7.35.0"],\
           ["eslint-plugin-react-hooks", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.1.0-rc-fb9a90fa48-20240614"],\
@@ -40,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:18.3.1"],\
+          ["react-icons", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.3.0"],\
           ["tailwindcss", "npm:3.4.10"],\
           ["vite", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.4.2"]\
         ],\
@@ -1568,6 +1570,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:4.3.1"],\
           ["autoprefixer", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:10.4.20"],\
+          ["daisyui", "npm:4.12.10"],\
           ["eslint", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:9.9.1"],\
           ["eslint-plugin-react", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:7.35.0"],\
           ["eslint-plugin-react-hooks", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.1.0-rc-fb9a90fa48-20240614"],\
@@ -1576,6 +1579,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.41"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:18.3.1"],\
+          ["react-icons", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.3.0"],\
           ["tailwindcss", "npm:3.4.10"],\
           ["vite", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.4.2"]\
         ],\
@@ -1603,6 +1607,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["css-selector-tokenizer", [\
+      ["npm:0.8.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/css-selector-tokenizer-npm-0.8.0-b6bad298a3-10c0.zip/node_modules/css-selector-tokenizer/",\
+        "packageDependencies": [\
+          ["css-selector-tokenizer", "npm:0.8.0"],\
+          ["cssesc", "npm:3.0.0"],\
+          ["fastparse", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cssesc", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../../.yarn/berry/cache/cssesc-npm-3.0.0-15ec56f86f-10c0.zip/node_modules/cssesc/",\
@@ -1617,6 +1632,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/csstype-npm-3.1.3-e9a1c85013-10c0.zip/node_modules/csstype/",\
         "packageDependencies": [\
           ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["culori", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/culori-npm-3.3.0-75ee2b3b84-10c0.zip/node_modules/culori/",\
+        "packageDependencies": [\
+          ["culori", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["daisyui", [\
+      ["npm:4.12.10", {\
+        "packageLocation": "../../../.yarn/berry/cache/daisyui-npm-4.12.10-983eb1119b-10c0.zip/node_modules/daisyui/",\
+        "packageDependencies": [\
+          ["daisyui", "npm:4.12.10"],\
+          ["css-selector-tokenizer", "npm:0.8.0"],\
+          ["culori", "npm:3.3.0"],\
+          ["picocolors", "npm:1.0.1"],\
+          ["postcss-js", "virtual:983eb1119b45bd1e09491f6fac1711920104ada495b8c5eb20bbab8faa3ee4eda33f5dbd82db2c863e60b66c5b0698599d43337e69d5765c7060d31b2d73c997#npm:4.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2264,6 +2301,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/fast-levenshtein-npm-2.0.6-fcd74b8df5-10c0.zip/node_modules/fast-levenshtein/",\
         "packageDependencies": [\
           ["fast-levenshtein", "npm:2.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["fastparse", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/fastparse-npm-1.1.2-6a35154770-10c0.zip/node_modules/fastparse/",\
+        "packageDependencies": [\
+          ["fastparse", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3786,6 +3832,20 @@ const RAW_RUNTIME_STATE =
           "postcss"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:983eb1119b45bd1e09491f6fac1711920104ada495b8c5eb20bbab8faa3ee4eda33f5dbd82db2c863e60b66c5b0698599d43337e69d5765c7060d31b2d73c997#npm:4.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-js-virtual-0bbb90673d/4/.yarn/berry/cache/postcss-js-npm-4.0.1-2c4ee70bf3-10c0.zip/node_modules/postcss-js/",\
+        "packageDependencies": [\
+          ["postcss-js", "virtual:983eb1119b45bd1e09491f6fac1711920104ada495b8c5eb20bbab8faa3ee4eda33f5dbd82db2c863e60b66c5b0698599d43337e69d5765c7060d31b2d73c997#npm:4.0.1"],\
+          ["@types/postcss", null],\
+          ["camelcase-css", "npm:2.0.1"],\
+          ["postcss", null]\
+        ],\
+        "packagePeers": [\
+          "@types/postcss",\
+          "postcss"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["postcss-load-config", [\
@@ -3944,6 +4004,28 @@ const RAW_RUNTIME_STATE =
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.3.1"],\
           ["scheduler", "npm:0.23.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-icons", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/react-icons-npm-5.3.0-3814684035-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:5.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-6253f3dde4/4/.yarn/berry/cache/react-icons-npm-5.3.0-3814684035-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "virtual:2b9a46461a7594a47a4619ebef297566b9aee25cba1f6d03ce1f96f9c6196978956a4770c8bf87fa83afaf296e2e41189e9523d8724cfd7facb0401d5a3e1451#npm:5.3.0"],\
+          ["@types/react", "npm:18.3.5"],\
+          ["react", "npm:18.3.1"]\
         ],\
         "packagePeers": [\
           "@types/react",\

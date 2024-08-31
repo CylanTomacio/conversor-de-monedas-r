@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import { Body } from "./components/app/Body"
+import { Header } from "./components/header/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className='text-5xl text-purple-600'>Conversor de Monedas</h1>
-    </>
+    <main>
+      <Header />
+      <Body />
+    </main>
   )
 }
 
