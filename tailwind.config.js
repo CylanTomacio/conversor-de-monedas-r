@@ -12,9 +12,8 @@ export default {
   ],
   daisyui: {
     themes: [
-      "light",
-      "dark",
-      "dim"
+      "emerald",
+      "business"
     ]
   }
 }
